@@ -26,7 +26,7 @@ public class RecoveryRoom {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Integer id;
     
-    @NotEmpty()
+    @NotEmpty
     @Size(min = 3, max=50)
     String name;
 
